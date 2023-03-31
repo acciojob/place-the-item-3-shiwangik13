@@ -1,6 +1,17 @@
 .holder{
-    justify-content:space-between;
-    flex-wrap: wrap;
     display: flex;
+    background-color: lightblue;
+    height: 300px;
+    width: 90vw;  
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.holder .item{
+    height: 200px;
+    width: 25vw;
+    margin: 43px 10px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
 }
 /* Your CSS Code here. */
