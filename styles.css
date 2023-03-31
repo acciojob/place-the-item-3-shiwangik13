@@ -1,17 +1,26 @@
-.holder{
-    display: flex;
-    background-color: lightblue;
-    height: 300px;
-    width: 90vw;  
-    flex-wrap: wrap;
-    justify-content: space-between;
+
+/* Your CSS Code here. */
+.div_1 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
 }
-.holder .item{
-    height: 200px;
-    width: 25vw;
-    margin: 43px 10px;
+.div_2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.div_3 {
+    width: 100px;
+    height: 100px;
     background-color: blue;
-    color: white;
-    font-size: 20px;
+}
+.holder {
+	flex-wrap: wrap;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+	font-size: 50px;
 }
 /* Your CSS Code here. */
